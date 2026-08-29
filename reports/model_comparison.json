@@ -1,0 +1,22 @@
+[
+  {
+    "model": "gemini-3.5-flash",
+    "evaluation_count": 22,
+    "metrics": {
+      "grounded_rate": 0.45454545454545453,
+      "context_hit_rate": 0.5454545454545454,
+      "abstention_correct": 0.5454545454545454,
+      "avg_confidence": 0.35295454545454547
+    }
+  },
+  {
+    "model": "gemini-3.5-flash-lite",
+    "evaluation_count": 22,
+    "metrics": {
+      "grounded_rate": 0.5909090909090909,
+      "context_hit_rate": 0.6818181818181818,
+      "abstention_correct": 0.6818181818181818,
+      "avg_confidence": 0.44645454545454544
+    }
+  }
+]

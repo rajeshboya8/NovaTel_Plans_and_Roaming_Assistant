@@ -1,0 +1,156 @@
+[
+  {
+    "id": "GS-001",
+    "ac_id": "AC-01",
+    "question": "How many documents are in the NovaTel corpus?",
+    "reference_answer": "The corpus contains synthetic plan, tariff, and policy documents.",
+    "expected_contexts": ["NOVATEL_START_LITE", "PLAN-001-PRICE-01"]
+  },
+  {
+    "id": "GS-002",
+    "ac_id": "AC-02",
+    "question": "What is the monthly price of NovaTel Start Lite?",
+    "reference_answer": "The monthly price is $15.00.",
+    "expected_contexts": ["NOVATEL_START_LITE", "PLAN-001-PRICE-01"]
+  },
+  {
+    "id": "GS-003",
+    "ac_id": "AC-02",
+    "question": "What is the monthly price of NovaTel Move Plus?",
+    "reference_answer": "The monthly price is $25.00.",
+    "expected_contexts": ["NOVATEL_MOVE_PLUS", "PLAN-002-PRICE-01"]
+  },
+  {
+    "id": "GS-004",
+    "ac_id": "AC-02",
+    "question": "How much data is included in NovaTel Move Plus?",
+    "reference_answer": "NovaTel Move Plus includes 35 GB per month.",
+    "expected_contexts": ["NOVATEL_MOVE_PLUS", "PLAN-002-DATA-01"]
+  },
+  {
+    "id": "GS-005",
+    "ac_id": "AC-03",
+    "question": "What happens after 35 GB on NovaTel Move Plus?",
+    "reference_answer": "Speeds are reduced to 1 Mbps for the remainder of the billing cycle.",
+    "expected_contexts": ["NOVATEL_MOVE_PLUS", "PLAN-002-DATA-02"]
+  },
+  {
+    "id": "GS-006",
+    "ac_id": "AC-03",
+    "question": "What are the roaming charges in the EU?",
+    "reference_answer": "EU roaming data is $2.50 per GB after included allowance; voice is $0.15 per minute.",
+    "expected_contexts": ["EU_ROAMING_TARIFF", "ROAM-EU-DATA-01"]
+  },
+  {
+    "id": "GS-007",
+    "ac_id": "AC-04",
+    "question": "What is the fair-usage limit for the premium plan?",
+    "reference_answer": "The fair-usage limit is 500 GB per month at full speed.",
+    "expected_contexts": ["PREMIUM_FAIR_USAGE", "FUP-PREM-01"]
+  },
+  {
+    "id": "GS-008",
+    "ac_id": "AC-04",
+    "question": "What is the monthly price of Move Plus and what happens after 35 GB?",
+    "reference_answer": "Move Plus costs $25.00 per month; after 35 GB speeds drop to 1 Mbps.",
+    "expected_contexts": ["NOVATEL_MOVE_PLUS", "PLAN-002-PRICE-01", "PLAN-002-DATA-02"]
+  },
+  {
+    "id": "GS-009",
+    "ac_id": "AC-05",
+    "question": "What is the price of the NovaTel Mars Plan?",
+    "reference_answer": "No evidence found for NovaTel Mars Plan in the corpus.",
+    "expected_contexts": []
+  },
+  {
+    "id": "GS-010",
+    "ac_id": "AC-05",
+    "question": "What is the monthly price of NovaTel Jupiter Ultra?",
+    "reference_answer": "Insufficient evidence; Jupiter Ultra plan not in corpus.",
+    "expected_contexts": []
+  },
+  {
+    "id": "GS-011",
+    "ac_id": "AC-06",
+    "question": "What is the activation fee for Start Lite?",
+    "reference_answer": "One-time activation fee is $10.00.",
+    "expected_contexts": ["NOVATEL_START_LITE", "PLAN-001-FEE-01"]
+  },
+  {
+    "id": "GS-012",
+    "ac_id": "AC-06",
+    "question": "How much data is included in Start Lite?",
+    "reference_answer": "Start Lite includes 10 GB per month.",
+    "expected_contexts": ["NOVATEL_START_LITE", "PLAN-001-DATA-01"]
+  },
+  {
+    "id": "GS-013",
+    "ac_id": "AC-07",
+    "question": "What is the price of Premium Unlimited and what is its fair-usage limit?",
+    "reference_answer": "Premium Unlimited is $55.00 per month with 500 GB fair-usage limit.",
+    "expected_contexts": ["NOVATEL_PREMIUM_UNLIMITED", "PLAN-003-PRICE-01", "FUP-PREM-01"]
+  },
+  {
+    "id": "GS-014",
+    "ac_id": "AC-07",
+    "question": "What are EU SMS roaming charges and EU data charges?",
+    "reference_answer": "EU SMS is $0.05 per message; EU data is $2.50 per GB.",
+    "expected_contexts": ["EU_ROAMING_TARIFF", "ROAM-EU-SMS-01", "ROAM-EU-DATA-01"]
+  },
+  {
+    "id": "GS-015",
+    "ac_id": "AC-08",
+    "question": "What is the shared data pool on Family Share?",
+    "reference_answer": "Family Share provides 80 GB shared per month.",
+    "expected_contexts": ["NOVATEL_FAMILY_SHARE", "PLAN-004-DATA-01"]
+  },
+  {
+    "id": "GS-016",
+    "ac_id": "AC-08",
+    "question": "What is the student plan monthly price?",
+    "reference_answer": "Student plan is $18.00 per month with valid student ID.",
+    "expected_contexts": ["NOVATEL_STUDENT_PLAN", "PLAN-005-PRICE-01"]
+  },
+  {
+    "id": "GS-017",
+    "ac_id": "AC-09",
+    "question": "What is the US roaming data rate?",
+    "reference_answer": "US roaming data is $5.00 per GB.",
+    "expected_contexts": ["US_ROAMING_TARIFF", "ROAM-US-DATA-01"]
+  },
+  {
+    "id": "GS-018",
+    "ac_id": "AC-09",
+    "question": "What is the UK roaming voice rate?",
+    "reference_answer": "UK roaming outgoing voice is $0.20 per minute.",
+    "expected_contexts": ["UK_ROAMING_TARIFF", "ROAM-UK-VOICE-01"]
+  },
+  {
+    "id": "GS-019",
+    "ac_id": "AC-10",
+    "question": "What is the Business Pro monthly price per line?",
+    "reference_answer": "Business Pro is $65.00 per line per month.",
+    "expected_contexts": ["NOVATEL_BUSINESS_PRO", "PLAN-008-PRICE-01"]
+  },
+  {
+    "id": "GS-020",
+    "ac_id": "AC-10",
+    "question": "What is the cost of the 5 GB data add-on?",
+    "reference_answer": "Additional 5 GB costs $10.00 one-time.",
+    "expected_contexts": ["DATA_ADDON_CATALOG", "ADDON-DATA-5GB-01"]
+  },
+  {
+    "id": "GS-021",
+    "ac_id": "AC-03",
+    "question": "What is the senior plan monthly price?",
+    "reference_answer": "Senior plan is $12.00 per month.",
+    "expected_contexts": ["NOVATEL_SENIOR_PLAN", "PLAN-006-PRICE-01"]
+  },
+  {
+    "id": "GS-022",
+    "ac_id": "AC-02",
+    "question": "What is the Europe daily travel pass price?",
+    "reference_answer": "Europe daily pass is $5.00 per day.",
+    "expected_contexts": ["TRAVEL_PASS_CATALOG", "TRAVEL-EU-01"]
+  }
+]

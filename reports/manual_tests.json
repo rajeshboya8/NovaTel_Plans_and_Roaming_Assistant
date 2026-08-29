@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Start Lite",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "PLAN-001-PRICE-01"
+    ],
+    "charge_or_limit": "$15.00 per month"
+  },
+  {
+    "name": "Move Plus price",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "PLAN-002-PRICE-01"
+    ],
+    "charge_or_limit": "$25.00 per month"
+  },
+  {
+    "name": "Move Plus data",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "PLAN-002-DATA-01"
+    ],
+    "charge_or_limit": "35 GB per month at full speed"
+  },
+  {
+    "name": "Move Plus 35GB",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "PLAN-002-DATA-02"
+    ],
+    "charge_or_limit": "Speeds reduced to 1 Mbps"
+  },
+  {
+    "name": "EU roaming",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "ROAM-EU-DATA-01",
+      "ROAM-EU-FAIR-01",
+      "ROAM-EU-SMS-01",
+      "ROAM-EU-VOICE-01"
+    ],
+    "charge_or_limit": "Data usage: $2.50 per GB; Outgoing SMS: $0.05 per message; Outgoing voice calls: $0.15 per minute"
+  },
+  {
+    "name": "Fair usage",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "FUP-PREM-01"
+    ],
+    "charge_or_limit": "500 GB per month at full speed"
+  },
+  {
+    "name": "Multi-part query",
+    "status": "PASS",
+    "grounded": true,
+    "citations": [
+      "PLAN-002-PRICE-01",
+      "PLAN-002-DATA-02"
+    ],
+    "charge_or_limit": "$25.00 per month (excluding taxes); 35 GB per month at full speed; speed reduced to 1 Mbps after 35 GB"
+  },
+  {
+    "name": "Unsupported query",
+    "status": "PASS",
+    "grounded": false,
+    "citations": [],
+    "charge_or_limit": "None"
+  }
+]
